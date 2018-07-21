@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c658e642-16e6-4519-a8cb-d47fc03bad01" name="Default" comment="安装">
+      <change afterPath="$PROJECT_DIR$/.idea/component-s.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.esm.browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/codegen/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/codegen/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/create-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/on.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/error-detector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/optimizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/entity-decoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/filter-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/html-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/text-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/to-function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/components/keep-alive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/use.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/inject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/lifecycle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/proxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/bind-object-listeners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/bind-object-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/check-keycodes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/render-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/render-slot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/render-static.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/resolve-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/resolve-slots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/dep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/scheduler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/traverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/watcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/next-tick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/perf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/create-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/create-element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/create-functional-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/extract-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/get-first-component-child.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/is-async-placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/merge-hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/normalize-children.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/resolve-async-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/update-listeners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/modules/directives.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/modules/ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/vnode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/entry-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/entry-runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/entry-server-basic-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/entry-server-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/class-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/components/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/directives/show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/node-ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/transition-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/directives/show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/dom-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/compat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/append.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component-root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/recycle-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-for.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-if.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-on.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-once.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/entry-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/entry-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/entry-runtime-factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/richtext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/node-ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/recycle-list/render-component-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/recycle-list/virtual-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/text-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/util/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/util/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/bundle-renderer/source-map-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/create-basic-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/create-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/optimizing-compiler/codegen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/optimizing-compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/optimizing-compiler/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/optimizing-compiler/optimizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/optimizing-compiler/runtime-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/render-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/render-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/create-async-file-mapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/parse-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/template-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/webpack-plugin/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/webpack-plugin/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/webpack-plugin/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/sfc/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/shared/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/shared/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/types/options.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/types/plugin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/types/vnode.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/types/vue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="button.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/button.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/button.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="27" />
+    <option name="y" value="106" />
+    <option name="width" value="1385" />
+    <option name="height" value="738" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="component-s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="component-s" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="component-s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="component-s" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="vcs&#9;ACTION&#9;Vcs.QuickListPopupAction" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/component-s/index.html" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c658e642-16e6-4519-a8cb-d47fc03bad01" name="Default" comment="" />
+      <created>1531665060814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531665060814</updated>
+      <workItem from="1531665074228" duration="3128000" />
+      <workItem from="1532144760057" duration="3438000" />
+    </task>
+    <task id="LOCAL-00001" summary="npm i vue">
+      <created>1531666039245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531666039245</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成按钮基本样式">
+      <created>1532158543766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532158543782</updated>
+    </task>
+    <task id="LOCAL-00003" summary="npm i vue">
+      <created>1532159227362</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532159227362</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6566000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="62" y="35" width="1108" height="590" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32480314" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成按钮基本样式" />
+    <MESSAGE value="npm i vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="npm i vue" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
