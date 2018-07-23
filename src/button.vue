@@ -1,8 +1,6 @@
 <template>
     <button class="cs-button" :class="{[`icon-${iconPosition}`]:true}">
-        <svg v-if="icon" class="icon">
-            <use :xlink:href="`#i-${icon}`"></use>
-        </svg>
+        <cs-icon v-if="icon" :name="icon"></cs-icon>
         <div class="content">
             <slot></slot>
         </div>
@@ -11,7 +9,14 @@
 
 <script>
     export default {
-        props: ['icon', 'iconPosition']
+        props: {icon:{},
+            iconPosition:{
+            type:String,
+             default:'left',
+                validator(value){
+                 return value==='left'||value==='right'
+                }
+            }}
     }
 </script>
 
