@@ -1,6 +1,7 @@
 <template>
-    <button class="cs-button" :class="{[`icon-${iconPosition}`]:true}">
-        <cs-icon v-if="icon" :name="icon"></cs-icon>
+    <button class="cs-button" :class="{[`icon-${iconPosition}`]:true}" @click="$emit('click')">
+        <cs-icon class="icon" v-if="icon && !loading" :name="icon"></cs-icon>
+        <cs-icon class="loading icon" v-if="loading" name="loading"></cs-icon>
         <div class="content">
             <slot></slot>
         </div>
@@ -9,7 +10,12 @@
 
 <script>
     export default {
-        props: {icon:{},
+        props: {
+            icon:{},
+            loading: {
+             type: Boolean,
+             default: false
+              },
             iconPosition:{
             type:String,
              default:'left',
@@ -21,6 +27,11 @@
 </script>
 
 <style lang="scss">
+    @keyframes spin {
+    0%{ transform: rotate(0deg);}
+    100%{
+        transform: rotate(360deg);}
+    }
     .cs-button {
         font-size: var(--font-size);
         height: var(--button-height);
@@ -51,6 +62,9 @@
         &.icon-right{
             >.content{order: 1;}
             >.icon{order:2;margin-right: 0;margin-left: .1em;}
+        }
+        .loading{
+            animation: spin 2s infinite linear;
         }
     }
 </style>

@@ -41,12 +41,11 @@
 </head>
 <body>
 <div id="app">
-    <cs-button>按钮</cs-button>
-    <cs-button icon="settings">按钮</cs-button>
-    <cs-button icon="settings" icon-position="right">按钮</cs-button>
-    <cs-icon name="dowload"></cs-icon>
+    <cs-button  :loading="loading1" @click="loading1 = !loading1">按钮</cs-button>
+    <cs-button icon="settings" :loading="loading2" @click="loading2=!loading2">按钮</cs-button>
+    <cs-button icon="settings" icon-position="right" :loading="loading3" @click="loading3 = !loading3">按钮</cs-button>
 </div>
 <script src="./src/app.js"></script>
-<script src="//at.alicdn.com/t/font_718972_lyygpj1bd1r.js"></script>
+<script src="//at.alicdn.com/t/font_718972_1hhoomwpb69.js"></script>
 </body>
 </html>
