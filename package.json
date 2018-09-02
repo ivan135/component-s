@@ -4,9 +4,10 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "start": "parcel index.html --no-cache",
     "dev-test": "parcel watch test/* --no-cache & karma start",
     "test": "parcel build test/* --no-minify && karma start --single-run"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ivan135/component-s.git"
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/ivan135/component-s#readme",
   "dependencies": {
     "npm": "^6.2.0",
+    "svg": "^0.1.0",
     "vue": "^2.5.16",
     "vue-hot-reload-api": "^2.3.0"
   },
