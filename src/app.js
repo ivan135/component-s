@@ -2,17 +2,49 @@ import Vue from 'vue'
 import Button from './button'
 import Icon from './icon'
 import ButtonGroup from './button-group'
+import Cascader from './cascader'
 
 Vue.component('cs-button', Button);
 Vue.component('cs-icon', Icon);
 Vue.component('cs-button-group', ButtonGroup);
+Vue.component('cs-cascader',Cascader);
 
 new Vue({
     el: '#app',
     data: {
-        loading1: false,
-        loading2: true,
-        loading3: false,
+        source: [{
+            name: '浙江',
+            children: [
+                {
+                    name: '杭州',
+                    children: [
+                        {name: '上城'},
+                        {name: '下城'},
+                        {name: '江干'},
+                    ]
+                },
+                {
+                    name: '嘉兴',
+                    children: [
+                        {name: '南湖'},
+                        {name: '秀洲'},
+                        {name: '嘉善'},
+                    ]
+                },
+            ]
+        }, {
+            name: '福建',
+            children: [
+                {
+                    name: '福州',
+                    children: [
+                        {name: '鼓楼'},
+                        {name: '台江'},
+                        {name: '仓山'},
+                    ]
+                },
+            ]
+        }]
     }
 });
 
