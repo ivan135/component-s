@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import Button from './button'
+import Button from './button/button'
 import Icon from './icon'
-import ButtonGroup from './button-group'
-import Cascader from './cascader'
+import ButtonGroup from './button/button-group'
+import Cascader from './cascader/cascader'
 
 Vue.component('cs-button', Button);
 Vue.component('cs-icon', Icon);
@@ -44,7 +44,19 @@ new Vue({
                     ]
                 },
             ]
-        }]
+        },
+            {
+                name: '安徽',
+                children: [{
+                    name: '合肥',
+                    children: [{
+                        name: '瑶海'
+                    }, {
+                        name: '庐阳'
+                    }]
+                }]
+            }
+        ]
     }
 });
 

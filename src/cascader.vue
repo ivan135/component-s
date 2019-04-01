@@ -23,7 +23,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "var";
+    @import "main";
     .cascader {
     }
 </style>

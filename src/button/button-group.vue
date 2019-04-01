@@ -1,4 +1,4 @@
-<template>
+ <template>
     <div class="cs-button-group">
         <slot></slot>
     </div>
@@ -18,6 +18,7 @@
 </script>
 
 <style lang="scss">
+@import "main";
 .cs-button-group{
     display: inline-flex;
     vertical-align: middle;
@@ -27,12 +28,12 @@
             margin-left:-1px;
         }
         &:first-child{
-            border-top-left-radius: var(--border-radius);
-            border-bottom-left-radius: var(--border-radius);
+            border-top-left-radius: $border-radius;
+            border-bottom-left-radius: $border-radius;
         }
         &:last-child{
-            boder-top-right-radius:var(--border-radius);
-            border-bottom-left-radius: var(--border-radius);;
+            boder-top-right-radius:$border-radius;
+            border-bottom-left-radius: $border-radius;
         }
         &:hover{
             position: relative;

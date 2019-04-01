@@ -1,6 +1,6 @@
 # pointline(PL)UI 一个 VUE UI 组件库
 
-![PLUI](https://note.youdao.com/yws/api/personal/file/WEBf25c5234fe61d159c54c3d3bc5eb133f?method=download&shareKey=298a782938a815f8741d3e3540d5fd65)
+![PLUI](https://note.youdao.com/yws/api/personal/file/WEB42ab0be8ec96d9393c06494b1b7b603b?method=download&shareKey=21a1a1c74e2ba0085166e93dfd131d42)
 
 [![Build Status](https://travis-ci.org/ivan135/component-s.svg?branch=master)](https://travis-ci.org/ivan135/component-s)
 ![license](https://img.shields.io/npm/l/@nutui/nutui.svg)
