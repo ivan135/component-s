@@ -19,7 +19,7 @@ yarn add pointline-ui
 
 ## 文档
 
-请访问[官方网站]()
+请访问[官方网站](https://ivan135.github.io/component-s/)
 
 ## 版本记录
 
