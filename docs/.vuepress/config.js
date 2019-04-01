@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-    // base: '/',
+    base: '/component-s/',
     title: 'PL-UI',
     description: '一个不错的组件库',
     head: [["link", { rel: "icon", href: "/logo.png" }]],
@@ -16,7 +16,7 @@ module.exports = {
               title: '入门',
               collapsable: false,
               children: [
-                '/install/',
+                ["/install/", "Hello World"]
               ]
             },
             {
@@ -24,11 +24,11 @@ module.exports = {
               collapsable: false,
               children: [
                 ["/components/button", "button"],
-                ["/components/input", "input"],
                 ["/components/card", "card"],
                 ["/components/tabs", "tabs"],
-                ["/components/popover", "popover"],
-                ["/components/toast", "toast"]
+                ["/components/toast", "toast"],
+                ["/components/input", "input"],
+                ["/components/popover", "popover"]
                 ]
         
             },

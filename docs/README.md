@@ -12,4 +12,7 @@ heroImage: /logo.gif
 #   details: 源码简单通俗，容易理解看懂
 # footer: MIT Licensed | Copyright © 2018-present Mrlgm
 ---
+
+<ClientOnly>
 <home></home>
+</ClientOnly>

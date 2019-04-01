@@ -10,6 +10,10 @@
 ```bash
 npm install pencil-vue -S
 ```
+或者
+```bash
+yarn add pointline-ui
+```
 
 
 ## 按需引入部分组件
