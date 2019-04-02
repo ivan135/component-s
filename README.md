@@ -2,7 +2,6 @@
 
 ![PLUI](https://note.youdao.com/yws/api/personal/file/WEB42ab0be8ec96d9393c06494b1b7b603b?method=download&shareKey=21a1a1c74e2ba0085166e93dfd131d42)
 
-[![Build Status](https://travis-ci.org/ivan135/component-s.svg?branch=master)](https://travis-ci.org/ivan135/component-s)
 ![license](https://img.shields.io/npm/l/@nutui/nutui.svg)
 
 ## 介绍
